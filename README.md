@@ -102,6 +102,3 @@ Output is printed to the console, including:
 - The design of this demo is inspired by Signal’s Double Ratchet Algorithm as documented in the [Signal Double Ratchet PDF (Revision 1, 2016-11-20)](https://signal.org/docs/specifications/doubleratchet/).
 - The hybrid key agreement approach combines classical X25519 and post‑quantum Kyber512 as seen in modern PQ enhancements (e.g., Signal's PQXDH upgrade).
 
----
-
-Enjoy exploring **signal-demo**!
