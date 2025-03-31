@@ -21,21 +21,7 @@
 - **Actor-based Messaging:**  
   Encapsulates the protocol in an `Actor` class, which automatically generates key pairs and manages conversation initiation, message encryption (send), and decryption (receive).
 
-- **Message Exchange Simulation:**  
-  Demonstrates a conversation where Bob sends "I know who killed JFK", Alice replies "who?", and Bob responds with "...................... your mom".
-
 ---
-
-## Requirements
-
-- **Python 3.10+**  
-- **kyber-py:** A pure Python implementation of ML‑KEM/CRYSTALS‑Kyber (for post‑quantum key encapsulation).  
-- **cryptography:** Provides implementations for X25519, HKDF, and AES-GCM.
-
-Additional sub-dependencies (such as `numpy` and `pycryptodome`) are installed automatically with `kyber-py`.
-
----
-
 ## Installation
 
 1. **Clone the repository (if applicable):**
